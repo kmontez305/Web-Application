@@ -1,0 +1,242 @@
+.banner{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+
+}
+body{
+    background-color: midnightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 100vh;*/
+}
+.banner h1{
+    font-family: Chandas;
+    color: #3a3a4d;
+    text-align: center;
+    text-decoration: underline;
+}
+.banner input{
+    width: 70%;
+    postion:relative;
+    margin:10px 20px;
+    height:40px;
+    border: none;
+    outline:none;
+    border : 2px solid black;
+    border-radius :100px;
+    background:transparent;
+    padding: 5px;
+}
+.button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+.banner label{
+    argin:10px;
+
+}
+.button button{
+    font-family: Dialog;
+    text-align: center;
+}
+.Login{
+    background: mediumpurple;
+    border:2px solid black;
+    border-radius:10px;
+    width:350px;
+}
+body{
+    background: chocolate;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login h1{
+    font-family: Chilanka;
+    color: plum;
+    text-align:center;
+    text-decoration:underline;
+}
+.login input{
+    width:70% ;
+    position:relative;
+    margin:10px 20px;
+    height: 40px;
+    border:none;
+    outline: none;
+     border:2px solid black;
+    border-radius:100px;
+    background: darkmagenta;
+    padding:5px;
+}
+.button button{
+font-family: inherit;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif;
+}
+body{
+    /*background-image: url("img.png");*/
+}
+.banner{
+    width:100%;
+    height:100%;
+    background-color:burlywood;
+    background-size: cover;
+    background-position:center;
+    /*ackground-image: url("mars-67522_640.jpg");b*/
+
+}
+
+.navbar{
+    width:98%;
+    margin:auto;
+    padding:15px 15px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: sandybrown;
+    border:none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0px 32px;
+}
+.navbar ul li{
+    text-decoration: none;
+    font-weight: bolder;
+    color: chocolate;
+    text-transform: uppercase;
+    font-size:27px;
+}
+.content{
+    width: 1200px;
+    height:2020px;
+    margin:auto;
+    color: black;
+    position:relative;
+}
+.content.par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: "Abyssinica SIL ";
+    font-size:50px;
+    padding-left: 10px;
+    margin-top:9px;
+
+}
+.content .cn{
+    width: 100px;
+    height:400px;
+    background-color: lightsalmon;
+    border: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.comtent .cn a{
+    text-decoration: none;
+    color:chocolate;
+}
+.content .cn:hover{
+    /*background-color:none;*/
+    color:white;
+}
+.content span{
+    color: darkgoldenrod;
+    font-size: 60px;
+}
+.form{
+    width: 300px;
+    height:300px;
+    background-color:sandybrown ;
+    position:absolute;
+    top:300px;
+    left:100px;
+    border-radius:30px;
+    padding-left: 25px;
+
+}
+.form h2{
+    width:200px;
+    /*font-family:Chandas;*/
+    text-align: center;
+    color:black;
+    font-size: 14px;
+    background-color:sandybrown;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+}
+.form input{
+    width:200px;
+    height:15px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-bottom:1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:20px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color: white;
+    font-family: sans-serif;
+}
+.btn{
+    width:240px;
+    height: 40px;
+    background:chocolate;
+    border: none;
+    margin-top: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color:white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.fom .link{
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-top:20px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color: white;
+}
